@@ -1,12 +1,12 @@
 name: Playwright Tests (VM)
 
-on:
-    push:
-#      branches: [ main, github-actions ]
+# on:
+ # push:
+ #   branches: [ main, github-actions ]
 
 env:
   HTTP_USERNAME: ${{ secrets.HTTP_USERNAME }}
-  HTTP_PASSWORD: ${{ secrets.HTTP_PASSWORD }}
+  HTTP_PASSWORD: ${{ secrets.HTTP_PASSWORD }} 
 
 jobs:
   test:
