@@ -71,7 +71,7 @@ test.describe('Non-retrying Assertions', () => {
     test('toContain', () => {
         const string = 'Test string'
 
-        expect(string).not.toContain('Test');
+        expect(string).toContain('Test');
     })
 
 })
