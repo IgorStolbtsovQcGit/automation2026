@@ -1,6 +1,6 @@
 import test, { expect } from "@playwright/test";
 
-test.describe('Auto-retrying Assertions', () => {
+test.describe('Auto-retrying assertions', () => {
 
 test.beforeEach(async ({ page }) => {
     await page.goto('')
